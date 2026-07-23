@@ -10,7 +10,7 @@ model = joblib.load("svm_model.pkl")
 
 st.set_page_config(page_title="Profit Category Prediction", page_icon="📊")
 
-st.title("📊 Profit Category Prediction")
+st.title(" Profit Category Prediction")
 st.write("Enter the details below to predict the Profit Category.")
 
 customer_age = st.number_input("Customer Age", min_value=1, max_value=100, value=30)
